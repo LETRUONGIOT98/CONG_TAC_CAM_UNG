@@ -1,0 +1,5 @@
+Change Component Comment : Designator=R1 Old Comment=Res New Comment=47
+Change Component Designator: OldDesignator=LED1 NewDesignator=Xanh
+Change Component Designator: OldDesignator=LED2 NewDesignator=Trang
+Change Net Name : Old Net Name=NetLED1_1 New Net Name=NetR1_2
+Added Room: Name=TOUCH1

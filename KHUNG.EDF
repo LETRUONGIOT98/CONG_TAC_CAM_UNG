@@ -1,0 +1,274 @@
+(PCB KHUNG
+ (parser
+  (host_cad ARES)
+  (host_version 8.12 SP0)
+ )
+ (resolution mm 100000)
+ (unit mm)
+ (structure
+  (boundary (rect pcb -173.50000 24.62840 -89.89840 70.11154))
+  (boundary (path signal 0.20320 -112.00000 70.00994 -98.87328 70.00994))
+  (boundary (path signal 0.20320 -90.00000 60.99762 -90.00000 35.34662))
+  (boundary (path signal 0.20320 -99.42687 26.00994 -124.65289 26.00994))
+  (boundary (path signal 0.20320 -134.00000 35.21051 -134.00000 61.13373))
+  (boundary (path signal 0.20320 -125.20649 70.00994 -112.00000 70.00994))
+  (boundary (path signal 0.20320 -133.98880 61.15268 -133.16221 62.52842 -132.25795 63.82764
+   -131.27620 65.05018 -130.21714 66.19587 -129.08096 67.26456 -127.86783 68.25607 -126.57794 69.17025
+   -125.21148 70.00693))
+  (boundary (path signal 0.20320 -90.00087 60.99913 -90.83140 62.40028 -91.74190 63.72332
+   -92.73209 64.96798 -93.80168 66.13402 -94.95038 67.22118 -96.17791 68.22922 -97.48397 69.15789
+   -98.86828 70.00693))
+  (boundary (path signal 0.20320 -125.20649 70.00994 -98.87328 70.00994))
+  (boundary (path signal 0.20320 -128.98422 30.05442 -129.00297 29.85617 -129.05720 29.67266
+   -129.26005 29.36480))
+  (boundary (path signal 0.20320 -128.98422 30.05442 -129.00412 30.25889 -129.06137 30.44797
+   -129.27328 30.76536 -129.59066 30.97727 -129.77975 31.03452 -129.98422 31.05442))
+  (boundary (path signal 0.20320 -130.68139 30.77133 -130.37084 30.97946 -130.18511 31.03516
+   -129.98422 31.05442))
+  (boundary (path signal 0.20320 -93.39216 30.76522 -93.53681 30.88688 -93.70490 30.97780
+   -93.89246 31.03472 -94.09555 31.05442))
+  (boundary (path signal 0.20320 -95.09555 30.05442 -95.07565 30.25889 -95.01840 30.44797
+   -94.80649 30.76536 -94.48910 30.97727 -94.30002 31.03452 -94.09555 31.05442))
+  (boundary (path signal 0.20320 -95.09555 30.05442 -95.07680 29.85617 -95.02257 29.67266
+   -94.81972 29.36480))
+  (boundary (path signal 0.20320 -129.26743 29.37155 -128.28008 28.41512 -127.18486 27.53818
+   -125.97291 26.73503 -124.63540 26.00000))
+  (boundary (path signal 0.20320 -133.98880 35.19156 -133.26638 33.91787 -132.47964 32.76412
+   -131.62263 31.72149 -130.68940 30.78116))
+  (boundary (path signal 0.20320 -94.81233 29.37155 -95.79968 28.41512 -96.89490 27.53818
+   -98.10685 26.73503 -99.44436 26.00000))
+  (boundary (path signal 0.20320 -90.00087 35.34511 -90.74056 34.02779 -91.54810 32.83398
+   -92.42939 31.75474 -93.39036 30.78116))
+  (flip_style mirror_first)
+  (layer TOP (type signal) (direction horizontal))
+  (layer I1 (type signal) (direction off))
+  (layer I2 (type signal) (direction off))
+  (layer I3 (type signal) (direction off))
+  (layer I4 (type signal) (direction off))
+  (layer I5 (type signal) (direction off))
+  (layer I6 (type signal) (direction off))
+  (layer I7 (type signal) (direction off))
+  (layer I8 (type signal) (direction off))
+  (layer I9 (type signal) (direction off))
+  (layer I10 (type signal) (direction off))
+  (layer I11 (type signal) (direction off))
+  (layer I12 (type signal) (direction off))
+  (layer I13 (type signal) (direction off))
+  (layer I14 (type signal) (direction off))
+  (layer BOT (type signal) (direction vertical))
+  (grid via  0.63500)
+  (grid wire 0.25400)
+  (control
+   (via_at_smd off)
+   (off_grid on)
+  )
+  (via
+   $VIA#0_SIGNAL
+   (spare
+    $VIA#0_POWER
+    PS5
+   )
+  )
+  (rule
+   (width 0.50800)
+   (clearance 0.38100)
+   (clearance 0.25400 (type wire_via))
+   (clearance 0.25400 (type wire_smd))
+   (clearance 0.25400 (type wire_pin))
+   (clearance 0.25400 (type wire_wire))
+   (clearance 0.25400 (type via_pin))
+   (clearance 0.25400 (type via_via))
+   (clearance 0.25400 (type via_smd))
+  )
+ )
+ (placement
+  (component "CONN-DIL10_PLPCB1" (place PLPCB1 -101.00000 65.00000 front 180))
+  (component "SOT23-6_U2" (place U2 -120.08560 62.81280 back 0))
+  (component CAPC1005X55_C1 (place C1 -119.90000 65.00000 back 180))
+  (component CAPC1005X55_C2 (place C2 -122.86640 62.79680 back 270))
+  (component 0805_XANH (place XANH -116.13360 57.00000 front 0))
+  (component "CAM UNG_CAM UNG" (place "CAM UNG" -112.00000 48.00000 front 0))
+  (component 0805_R11 (place R11 -118.86640 58.86640 back 0))
+  (component 0805_TRANG (place TRANG -108.00000 57.00000 front 180))
+ )
+ (library
+  (image "CONN-DIL10_PLPCB1" (side front)
+   (outline (rect TOP -1.37160 -1.37160 11.53160 3.91160))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 2.54000 0.00000)
+   (pin PS0 (rotate 0) 2 5.08000 0.00000)
+   (pin PS0 (rotate 0) 3 7.62000 0.00000)
+   (pin PS0 (rotate 0) 4 10.16000 0.00000)
+   (pin PS0 (rotate -180) 5 10.16000 2.54000)
+   (pin PS0 (rotate -180) 6 7.62000 2.54000)
+   (pin PS0 (rotate -180) 7 5.08000 2.54000)
+   (pin PS0 (rotate -180) 8 2.54000 2.54000)
+   (pin PS0 (rotate -180) 9 0.00000 2.54000)
+  )
+  (image "SOT23-6_U2" (side back)
+   (outline (rect TOP -1.32580 -1.60020 1.28840 1.54940))
+   (pin PS1 (rotate 0) 0 -0.96520 -1.21920)
+   (pin PS2 (rotate 0) 1 -0.02540 -1.21920)
+   (pin PS2 (rotate 0) 2 0.93980 -1.21920)
+   (pin PS2 (rotate 0) 3 0.93980 1.16840)
+   (pin PS2 (rotate 0) 4 0.00000 1.16840)
+   (pin PS2 (rotate 0) 5 -0.96520 1.16840)
+  )
+  (image CAPC1005X55_C1 (side back)
+   (outline (rect TOP -0.47500 -0.47500 1.37500 0.47500))
+   (pin PS3 (rotate 90) 0 0.00000 0.00000)
+   (pin PS3 (rotate 90) 1 0.90000 0.00000)
+  )
+  (image CAPC1005X55_C2 (side back)
+   (outline (rect TOP -0.47500 -0.47500 1.37500 0.47500))
+   (pin PS3 (rotate 90) 0 0.00000 0.00000)
+   (pin PS3 (rotate 90) 1 0.90000 0.00000)
+  )
+  (image 0805_XANH (side front)
+   (outline (rect TOP -0.50800 -0.73660 2.64160 0.68580))
+   (pin PS4 (rotate 0) 0 0.00000 0.00000)
+   (pin PS4 (rotate 0) 1 2.13360 0.00000)
+  )
+  (image "CAM UNG_CAM UNG" (side front)
+   (outline (rect TOP -7.50000 -7.50000 7.50000 7.50000))
+   (pin PS5 (rotate 0) 0 0.00000 0.00000)
+  )
+  (image 0805_R11 (side back)
+   (outline (rect TOP -0.50800 -0.73660 2.64160 0.68580))
+   (pin PS6 (rotate 0) 0 0.00000 0.00000)
+   (pin PS6 (rotate 0) 1 2.13360 0.00000)
+  )
+  (image 0805_TRANG (side front)
+   (outline (rect TOP -0.50800 -0.73660 2.64160 0.68580))
+   (pin PS4 (rotate 0) 0 0.00000 0.00000)
+   (pin PS4 (rotate 0) 1 2.13360 0.00000)
+  )
+  (padstack PS0 (absolute on) (shape (rect BOT -1.00000 -1.00000 1.00000 3.00000)))
+  (padstack PS1 (absolute on) (shape (rect BOT -0.25400 -0.38100 0.25400 0.38100)))
+  (padstack PS2 (absolute on) (shape (rect BOT -0.25400 -0.38100 0.25400 0.38100)))
+  (padstack PS3 (absolute on) (shape (rect BOT -0.30480 -0.30480 0.30480 0.30480)))
+  (padstack PS4 (absolute on) (shape (rect TOP -0.50800 -0.63500 0.50800 0.63500)))
+  (padstack PS5 (absolute on) (shape (circle TOP 15.00000 0 0)))
+  (padstack PS6 (absolute on) (shape (rect BOT -0.50800 -0.63500 0.50800 0.63500)))
+  (padstack $VIA#0_SIGNAL (absolute on)
+   (shape (circle TOP 0.76200 0 0))
+   (shape (circle I1 0.76200 0 0))
+   (shape (circle I2 0.76200 0 0))
+   (shape (circle I3 0.76200 0 0))
+   (shape (circle I4 0.76200 0 0))
+   (shape (circle I5 0.76200 0 0))
+   (shape (circle I6 0.76200 0 0))
+   (shape (circle I7 0.76200 0 0))
+   (shape (circle I8 0.76200 0 0))
+   (shape (circle I9 0.76200 0 0))
+   (shape (circle I10 0.76200 0 0))
+   (shape (circle I11 0.76200 0 0))
+   (shape (circle I12 0.76200 0 0))
+   (shape (circle I13 0.76200 0 0))
+   (shape (circle I14 0.76200 0 0))
+   (shape (circle BOT 0.76200 0 0))
+  )
+  (padstack $VIA#0_POWER (absolute on)
+   (shape (circle TOP 0.76200 0 0))
+   (shape (circle I1 0.76200 0 0))
+   (shape (circle I2 0.76200 0 0))
+   (shape (circle I3 0.76200 0 0))
+   (shape (circle I4 0.76200 0 0))
+   (shape (circle I5 0.76200 0 0))
+   (shape (circle I6 0.76200 0 0))
+   (shape (circle I7 0.76200 0 0))
+   (shape (circle I8 0.76200 0 0))
+   (shape (circle I9 0.76200 0 0))
+   (shape (circle I10 0.76200 0 0))
+   (shape (circle I11 0.76200 0 0))
+   (shape (circle I12 0.76200 0 0))
+   (shape (circle I13 0.76200 0 0))
+   (shape (circle I14 0.76200 0 0))
+   (shape (circle BOT 0.76200 0 0))
+  )
+ )
+ (network
+  (net "#00001"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins U2-2 C2-0 "CAM UNG"-0)
+  )
+  (net "#00002"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins PLPCB1-9 U2-0 R11-0)
+  )
+  (net "#00003"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins XANH-0 R11-1)
+  )
+  (net "#00004"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins PLPCB1-5 U2-4 C1-0 TRANG-0)
+  )
+  (net "GND"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_POWER
+    )
+   )
+    (pins PLPCB1-0 PLPCB1-1 PLPCB1-2 PLPCB1-3 PLPCB1-4 PLPCB1-6 U2-1 U2-3 U2-5 C1-1 C2-1
+    XANH-1 TRANG-1)
+  )
+  (class POWER
+   "GND"
+   (rule
+    (width 0.50800)
+    (clearance 0.38100)
+    (clearance 0.25400 (type wire_via))
+    (clearance 0.25400 (type wire_smd))
+    (clearance 0.25400 (type wire_pin))
+    (clearance 0.25400 (type wire_wire))
+    (clearance 0.25400 (type via_pin))
+    (clearance 0.25400 (type via_via))
+    (clearance 0.25400 (type via_smd))
+   )
+  )
+  (class SIGNAL
+   "#00001"
+   "#00002"
+   "#00003"
+   "#00004"
+   "{NC}"
+   "{VOID}"
+   (rule
+    (width 0.50800)
+    (clearance 0.38100)
+    (clearance 0.25400 (type wire_via))
+    (clearance 0.25400 (type wire_smd))
+    (clearance 0.25400 (type wire_pin))
+    (clearance 0.25400 (type wire_wire))
+    (clearance 0.25400 (type via_pin))
+    (clearance 0.25400 (type via_via))
+    (clearance 0.25400 (type via_smd))
+   )
+  )
+ )
+ (wiring
+  (via PS5 -166.00000 56.00000 (net {NC-1}) (type protect))
+ )
+)
