@@ -1,0 +1,12 @@
+# Writing all output to: C:\Users\LETRUONG\Desktop\Do An\CONG_TAC_CAM_UNG\KHUNG.log
+set pad_wire_necking on
+bus diagonal
+fanout 1
+route 10
+clean 2
+route 10 16
+clean 2
+filter 5
+recorner diagonal
+status_file
+
